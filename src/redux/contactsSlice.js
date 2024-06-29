@@ -1,11 +1,6 @@
-import {
-  createSlice,
-  createAsyncThunk,
-  createSelector,
-} from "@reduxjs/toolkit";
+import {createSlice,createAsyncThunk,createSelector} from "@reduxjs/toolkit";
 import axios from "axios";
 
-// Async operations
 export const fetchContacts = createAsyncThunk(
   "contacts/fetchAll",
   async (_, thunkAPI) => {
