@@ -20,6 +20,7 @@ const SearchBox = () => {
       <input
         type="text"
         id={uniqInputId}
+        value={filter}
         onChange={handleChange}
       />
     </div>
